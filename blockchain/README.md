@@ -87,7 +87,7 @@ npx hardhat run scripts/deploy.ts --network mumbai
     -   Retrieves All Candidates for Viewing
     -   Allows Voter to Cast immutable Vote for one Candidate only
 
-## Contributing
+## Contribute
 
 We welcome contributions from the community! To contribute to My Blockchain Dapp, follow these steps:
 
