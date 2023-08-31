@@ -52,7 +52,7 @@ npm install
     ```sh
     cp .env_example .env
     ```
-5. Create a package - Initialise node package manager
+5. Create a package - Initialise node package manager in the base.
     ```sh
     npm init
     ```
@@ -66,7 +66,6 @@ npx hardhat compile
 ```sh
 npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.ts
 ```
 
 7. Deploy the contracts to the blockchain:
