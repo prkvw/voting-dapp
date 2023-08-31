@@ -16,7 +16,7 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 ## Overview
 
-My Blockchain Dapp enables users to interact with the Ethereum blockchain by participating in a voting process for different candidates. Users can add candidates, cast votes, and view the current vote count for each candidate.
+My Blockchain Dapp enables users to interact with the Ethereum blockchain by participating in a voting process for different candidates. Authorised Users can add candidates, and register voters. Voters can cast votes, and view the current vote count for each candidate.
 
 ## Prerequisites
 
