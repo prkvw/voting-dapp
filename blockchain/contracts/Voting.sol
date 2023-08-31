@@ -45,12 +45,15 @@ contract Voting {
 
     // Register Voter
     function registerVoter(address voterAddress) public isEC {
-             // Register
+        // Register
         voters[voterAddress] = true;
     }
 
     // Add Candidate
-    function addCandidate(address candidateAddress, string memory name) public isEC{
+    function addCandidate(
+        address candidateAddress,
+        string memory name
+    ) public isEC {
         // Add Candidate
         candidates[candidateAddress] = Candidate(candidateAddress, name, 0);
     }
