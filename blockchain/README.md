@@ -1,5 +1,3 @@
-
-
 ## Voting dApp
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
@@ -106,8 +104,6 @@ We welcome contributions from the community! To contribute to My Blockchain Dapp
  npx hardhat test
  ```
 
-# Known Issues
- There are two versions of voting contracts in this project. Tests were written for first version, and labelled for that specific contract. Running both tests simultaneously will present results for both versions asynchronously.
 
 ## License
 
