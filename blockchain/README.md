@@ -52,7 +52,7 @@ npm install
     ```sh
     cp .env_example .env
     ```
-5. Create a package - Initialise node package manager in the base.
+5. Create a package - Initialise node package manager.
     ```sh
     npm init
     ```
