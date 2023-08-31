@@ -3,9 +3,9 @@ pragma solidity ^0.8.9;
 
 contract Voting {
     // Track Voter Registration
-    mapping(address => bool) voters;
+    mapping(address => bool) public voters;
     // Track Voters Voted
-    mapping(address => bool) hasVoted;
+    mapping(address => bool) public hasVoted;
     // Track Candidates
     mapping(address => Candidate) public candidates;
 
@@ -17,8 +17,8 @@ contract Voting {
     // Track Votes Tally
     uint public totalVotes;
     // Contract Owner
-    address owner;
-    address ec;
+    address public owner;
+    address public ec;
 
     constructor() {
         owner = msg.sender;

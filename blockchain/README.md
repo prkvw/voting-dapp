@@ -81,6 +81,7 @@ npx hardhat run scripts/deploy.ts --network mumbai
 3. # Contract Functionality
 
     -   Register Voter
+    -   Register Moderator; "EC"
     -   Store Candidates
     -   Track If Voter has Already Voted
     -   Add New Candidate
